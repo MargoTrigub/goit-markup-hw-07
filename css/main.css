@@ -827,10 +827,10 @@ ul {
   box-shadow: var(--secondary-box-shadow);
 }
 
-.filter__-item {
+.filter__item {
   margin-right: 8px;
 }
-.filter__-item:last-child {
+.filter__item:last-child {
   margin-right: 0;
 }
 
@@ -845,6 +845,7 @@ ul {
   color: var(--primary-text-color);
   background: var(--secondary-background-color);
   border-style: none;
+  border-radius: var(--primary-border-radius);
   transition: color var(--primary-transition-time) var(--primary-cubic-function);
   transition: background-color var(--primary-transition-time) var(--primary-cubic-function);
   transition: box-shadow var(--primary-transition-time) var(--primary-cubic-function);

@@ -17,7 +17,7 @@
     box-shadow: var(--secondary-box-shadow);
   }
 }
-.filter__-item {
+.filter__item {
   margin-right: 8px;
   &:last-child {
     margin-right: 0;
@@ -31,6 +31,7 @@
   color: var(--primary-text-color);
   background: var(--secondary-background-color);
   border-style: none;
+  border-radius: var(--primary-border-radius);
   @include transition(color);
   @include transition(background-color);
   @include transition(box-shadow);
